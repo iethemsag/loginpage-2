@@ -86,7 +86,7 @@ label, input {
 
 .login-button {
   padding: 10px 20px;
-  border-radius: 20px; /* Köşeleri oval yapma */
+  border-radius: 20px; 
   background-color: #007bff;
   color: white;
   border: none;
@@ -131,7 +131,7 @@ form {
 
 .input-field {
   padding: 10px;
-  border-radius: 20px; /* Köşeleri oval yapma */
+  border-radius: 20px; 
   border: 1px solid #ccc;
 }
 
@@ -219,7 +219,7 @@ form {
   background-color: #0056b3;
 }
 
-/* Diğer stil kodları buraya gelecek */
+
 
 .signup-link {
   margin-top: 20px;
@@ -227,8 +227,8 @@ form {
 }
 
 .signup-link a {
-  display: block; /* Düğmeyi blok seviyesine çıkararak bir alt satıra alır */
-  margin-top: 10px; /* Üst boşluk ekleyerek biraz boşluk bırakır */
+  display: block; /
+  margin-top: 10px; 
   padding: 8px 16px;
   border-radius: 15px;
   background-color: #007bff;
@@ -241,15 +241,15 @@ form {
 }
 
 body {
-  background-image: url('2314983.jpg'); /* Arka plan resminin URL'sini girin */
-  background-size: cover; /* Arka planın boyutunu kapsama şeklinde ayarlar */
-  background-repeat: no-repeat; /* Arka planın tekrarlanmamasını sağlar */
+  background-image: url('2314983.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
 }
 
 .text-with-rounded-corners {
   background-color: #007bff;
   color: white;
-  border-radius: 20px 20px 0 0; /* Yalnızca üst köşeleri oval yapma */
+  border-radius: 20px 20px 0 0; 
   padding: 20px;
 }
 
@@ -257,7 +257,7 @@ body {
   width: 200px;
   height: 100px;
   background-color: #007bff;
-  border-radius: 20px; /* Köşeleri oval yapma */
+  border-radius: 20px; 
   padding: 20px;
   color: white;
   text-align: center;
@@ -266,7 +266,7 @@ body {
 .transparent-rectangle {
   width: 200px;
   height: 100px;
-  background-color: rgba(0, 123, 255, 0.5); /* Transparan arka plan rengi */
+  background-color: rgba(0, 123, 255, 0.5); 
   border-radius: 10px;
   padding: 20px;
   color: white;
@@ -276,8 +276,8 @@ body {
 .transparent-rectangle {
   width: 200px;
   height: 100px;
-  background-color: transparent; /* Arka planı şeffaflaştırma */
-  border: 2px solid rgba(0, 123, 255, 0.5); /* Şeffaf sınır çizgisi */
+  background-color: transparent; 
+  border: 2px solid rgba(0, 123, 255, 0.5); 
   border-radius: 10px;
   padding: 20px;
   color: white;
