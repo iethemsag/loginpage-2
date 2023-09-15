@@ -30,11 +30,9 @@
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
   
-        // Burada giriş bilgilerini doğrulayacak bir işlem yapabilirsiniz
-        // Örneğin, basitçe kullanıcı adı "admin" ve şifre "12345" olarak kabul edelim
         if (username === "admin" && password === "12345") {
-          // Başarılı giriş durumunda sayfayı yönlendir
-          window.location.href = "dashboard.html"; // Yönlendirilecek sayfa
+          
+          window.location.href = "dashboard.html"; 
         } else {
           alert("Kullanıcı adı veya şifre hatalı.");
         }
