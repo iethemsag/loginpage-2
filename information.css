@@ -1,0 +1,287 @@
+
+
+body {
+background-color: aqua;
+background-position: 100%;
+
+
+}
+
+.center {
+ text-align: center;
+
+}
+
+body {
+display: flex;
+justify-content:center;
+align-items: center;
+height: 60vh;
+margin: 0%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label, input {
+  margin-bottom: 5px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label, input {
+  margin-bottom: 5px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border-radius: 20px; /* Köşeleri oval yapma */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label, input {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 20px; /* Köşeleri oval yapma */
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label, input {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Diğer stil kodları buraya gelecek */
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link a {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  background-color: #0056b3;
+}
+
+/* Diğer stil kodları buraya gelecek */
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link a {
+  display: block; /* Düğmeyi blok seviyesine çıkararak bir alt satıra alır */
+  margin-top: 10px; /* Üst boşluk ekleyerek biraz boşluk bırakır */
+  padding: 8px 16px;
+  border-radius: 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  background-color: #0056b3;
+}
+
+body {
+  background-image: url('2314983.jpg'); /* Arka plan resminin URL'sini girin */
+  background-size: cover; /* Arka planın boyutunu kapsama şeklinde ayarlar */
+  background-repeat: no-repeat; /* Arka planın tekrarlanmamasını sağlar */
+}
+
+.text-with-rounded-corners {
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px 20px 0 0; /* Yalnızca üst köşeleri oval yapma */
+  padding: 20px;
+}
+
+.rectangle-with-rounded-corners {
+  width: 200px;
+  height: 100px;
+  background-color: #007bff;
+  border-radius: 20px; /* Köşeleri oval yapma */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.transparent-rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(0, 123, 255, 0.5); /* Transparan arka plan rengi */
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.transparent-rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: transparent; /* Arka planı şeffaflaştırma */
+  border: 2px solid rgba(0, 123, 255, 0.5); /* Şeffaf sınır çizgisi */
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trying...</title>
+</head>
+<link rel="stylesheet" type="text/css" href="information.css">  
+<body>
+  <div class="center">
+  
+    <div class="login-container">
+      <h1>Giriş Yap</h1>
+      <form>
+        <div class="input-group">
+          <label for="username">Kullanıcı Adı:</label>
+          <input class="input-field" type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Şifre:</label>
+          <input class="input-field" type="password" id="password" name="password" required>
+        </div>
+        <button class="login-button" type="button" onclick="checkLogin()">Giriş Yap</button>
+      </form>
+      <p class="signup-link">Henüz hesabınız yok mu? <a href="bos-sayfa.html" target="_blank">Kayıt Ol</a></p>
+    </div>
+  
+    <script>
+      function checkLogin() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+  
+        // Burada giriş bilgilerini doğrulayacak bir işlem yapabilirsiniz
+        // Örneğin, basitçe kullanıcı adı "admin" ve şifre "12345" olarak kabul edelim
+        if (username === "admin" && password === "12345") {
+          // Başarılı giriş durumunda sayfayı yönlendir
+          window.location.href = "dashboard.html"; // Yönlendirilecek sayfa
+        } else {
+          alert("Kullanıcı adı veya şifre hatalı.");
+        }
+      }
+    </script>
+
+    
+    </div>
+   
+   
+  </div>
+  
+</body>
+</html>

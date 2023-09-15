@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/pure-css-rain-animation"
+		},
+		{
+			"path": "../Kayit Ol"
+		},
+		{
+			"path": "../Resimler"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Python"
+	}
+}
